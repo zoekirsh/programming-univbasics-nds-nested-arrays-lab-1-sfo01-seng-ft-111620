@@ -202,6 +202,14 @@ spice_rack[1][1] = "Cumin" #=> "Cumin"
 spice_rack[1][1] #=> "Cumin"
 ```
 
+## Lab
+
+Time to apply our knowledgeo of the `Array` of `Array`s nested data structure.
+
+Take a look at `lib/nested_array.rb` and complete the provided methods. Your
+task is to nest two arrays within another array, as well as to access and
+change information in those arrays.
+
 ## Conclusion
 
 Congratulations, you've learned to use your first nested data structure: the
