@@ -16,8 +16,8 @@ To help you when reading the rest of this lesson, keep in mind that an Array of
 Arrays (or a matrix) is well expressed by a ***grid***. Here are some examples
 to get your mind ready.
 
-Think about those vending machines where you select the item you want by
-finding its coordinates and entering them in on a keypad.
+Think about those vending machines where you select the item you want by finding
+its coordinates and entering them in on a keypad.
 
 ![Grid-based vending machine](https://curriculum-content.s3.amazonaws.com/programming-univbasics-5/nested-arrays-lab/vending_grid.png)
 
@@ -32,7 +32,6 @@ Think about latitude and longitude uniquely identifying a place on a map.
 
 _Photo credit: Mike C. Valdivia on Unsplash_
 
-
 ### From Array to Array of Array
 
 An `Array` is like a list but in code form. It is a way for your program to
@@ -40,8 +39,8 @@ store pieces of data as elements in a collection. Arrays can contain any
 combination of data types -- `Boolean`s, `Integer`s, `Strings`.
 
 Let's imagine an `Array` as a **single** long shelf with books on it. The shelf
-is like the `Array` and each book is an element of it.  We can refer to books
-by saying things like the following:
+is like the `Array` and each book is an element of it.  We can refer to books by
+saying things like the following:
 
 * _House of Leaves_ is the **third** book from the **left-most edge**
 * The best Latin grammar book is the **second** book from the **left-most edge**
@@ -64,9 +63,12 @@ Thus we'd say:
 
 And the books from our previous single shelf would need more data provided:
 
-* _House of Leaves_ is on the zeroth shelf from the bottom, the **third** book from the left-most edge
-* The best Latin grammar book is on the zeroth shelf from the bottom, the **second** book from the left-most edge
-* On the zeroth shelf from the bottom at the **zeroth** book from the left-most edge (i.e. the first book) you will find Hegel's _Phenomenology_
+* _House of Leaves_ is on the zeroth shelf from the bottom, the **third** book
+  from the left-most edge
+* The best Latin grammar book is on the zeroth shelf from the bottom, the
+  **second** book from the left-most edge
+* On the zeroth shelf from the bottom at the **zeroth** book from the left-most
+  edge (i.e. the first book) you will find Hegel's _Phenomenology_
 
 Draw it out for yourself if you're unsure, but this matches our key image: a
 ***grid***.
@@ -78,13 +80,12 @@ Here's how an `Array` of `Array`s creates a grid:
 ## Recognize Vocabulary Term: "Array of Array"
 
 Nested Arrays have been an important tool for thinking about data for a long
-time. In fact this idea is older than computers and is at least as old as the
-Pharonic Egypt. As such, there are lots of words that mean "Array of Arrays."
-Here's a quick reference. You don't need to memorize these, but if you're
-trying to model a problem as a programmer, you might see someone use these
-words.
+time. In fact, this idea is older than computers and is at least as old as the
+Pharaonic Egypt. As such, there are lots of words that mean "Array of Arrays."
+Here's a quick reference. You don't need to memorize these, but if you're trying
+to model a problem as a programmer, you might see someone use these words.
 
-* **2-D** array: "Two dimensional Array:" another word for an nested array
+* **2-D** array: "Two dimensional Array:" another word for a nested array
 * **Multidimensional Array**: 3-D arrays are also possible (`Array` of `Array`
   of `Array`). This results in the category known as "Multidimensional
   Arrays"
@@ -114,8 +115,8 @@ Applications of nested `Arrays` are many:
 
 * Keeping track of the kids' names on the "hand-hold ropes" at a museum (5 kids
   per rope, 5 ropes per class, maximum 25 kids per field trip)
-* The latest fantasy video game (The dungeon is a 10 by 10 matrix of rooms.
-  When the player activates, load the character in room (2, 3)` where
+* The latest fantasy video game (The dungeon is a 10 by 10 matrix of rooms. When
+  the player activates, load the character in room (2, 3) where
   `dungeon_map[2][3]` points to the `String`: `"The Throne Room"`)
 * Tetris-like games and its children (When the block rests, visit each row and
   count whether every element in the row is status "filled." If all cells are
@@ -180,8 +181,8 @@ spice_rack[0][1] #=> "Ginger"
 spice_rack[1][1] #=> "Fajita Mix"
 ```
 
-The first set of brackets refers to the row of the nested Array.  The second
-set of brackets refer to the element within that row.
+The first set of brackets refers to the row of the nested Array.  The second set
+of brackets refer to the element within that row.
 
 ## Modify Scalar Data In an Array of Arrays
 
@@ -206,7 +207,7 @@ spice_rack[1][1] #=> "Cumin"
 Congratulations, you've learned to use your first nested data structure: the
 `Array` of `Array`s (or "matrix," or "coordinate grid"). You've seen that you
 can build them by build `Array`s filled with variables that point to other
-`Array`s, or that you can use `Array` literal notation to build them out.
-You've seen that you can use coordinates to look up elements in the matrix as
-well as update those elements. In the lab associated with this material, you'll
-have a chance to make sure you've understood the basics.
+`Array`s, or that you can use `Array` literal notation to build them out. You've
+seen that you can use coordinates to look up elements in the matrix as well as
+update those elements. In the lab associated with this material, you'll have a
+chance to make sure you've understood the basics.
