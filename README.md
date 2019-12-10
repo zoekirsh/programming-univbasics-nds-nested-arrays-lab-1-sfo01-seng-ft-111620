@@ -61,7 +61,7 @@ Thus we'd say:
   1. On the shelf that's 3rd from the bottom of the bookcase and
   2. is second from the left-most edge.
 
-And the books from our previous single shelf would need more data provided:
+And the books from our previous single shelf would need more data provided. Imagining a bookshelf where the bottom shelf is in the zeroth position.
 
 * _House of Leaves_ is on the zeroth shelf from the bottom, the **third** book
   from the left-most edge
@@ -206,7 +206,7 @@ spice_rack[1][1] #=> "Cumin"
 
 Congratulations, you've learned to use your first nested data structure: the
 `Array` of `Array`s (or "matrix," or "coordinate grid"). You've seen that you
-can build them by build `Array`s filled with variables that point to other
+can build them by building `Array`s filled with variables that point to other
 `Array`s, or that you can use `Array` literal notation to build them out. You've
 seen that you can use coordinates to look up elements in the matrix as well as
 update those elements. In the lab associated with this material, you'll have a
