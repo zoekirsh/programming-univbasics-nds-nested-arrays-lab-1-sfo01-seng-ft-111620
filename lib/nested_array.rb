@@ -1,37 +1,41 @@
-# Examples inspired by David Foster Wallace's # (2/21/1962 to 9/12/2008) _Infinite Jest_
+# Examples inspired by U. S. National Organic Standards
 
-ENNET_HOUSE = [
-  "Don Gately",
-  "Joelle van Dyne",
-  "Pat M.",
-  "Kate Gompert",
-  "Bruce Green"
+ORGANIC_PRODUCE = [
+  "Strawberries",
+  "Potatoes",
+  "Grapes",
+  "Avocadoes",
+  "Asparagus"
 ]
 
-ENFIELD_TENNIS_ACADEMY = [
-  "Hal Incandenza",
-  "Lyle",
-  "Gerhard Schtitt",
-  "Mario Incandenza",
-  "Michael Pemulis"
+CONVENTIONAL_PRODUCE = [
+  "Grapefruit",
+  "Pineapple",
+  "Oranges",
+  "Watermelon",
+  "Eggplant"
 ]
 
 def assembled_matrix
-  # Build an array that contains (or, "nests") the residents of The Ennet House
-  # and the Enfield Tennis Academy as provided by the constants
+  # Build an array that contains both of the above arrays
+  # This matrix will represent a produce storage room
+  # Organic standards require that organic products be stored ABOVE conventional, not the other way around
+  # Make sure conventional produce is first, on the 'zeroth' / 'bottom' shelf
 end
 
-def array_literal_matrix
-  # Using Array literal syntax only, build a nested array that uses the data in
-  # side the ENNET_HOUSE and ENFIELD_TENNIS_ACADEMY Arrays but sorts
-  # alphabetically by the first character.
+def sorted_matrix
+  # Using Array literal syntax only, build another nested array that 
+  # uses the arrays of conventional and organic produce as before.
+  # However, this time, sort each internal array alphabetically by the first character
 end
 
 def matrix_lookup(matrix, row, column)
-  # Return the matrix's content at row and column
+  # Given any matrix (array of arrays), a row index and a column index, 
+  # Return the matrix's content at that row and and column
 end
 
 def matrix_update(matrix, row, column, new_value)
-  # Update the matrix location at row and column to have the value of new_value
+  # Given any matrix (array of arrays), a row index and a column index, 
+  # Update the matrix location at that row and column to have the value of new_value
   # Return the updated matrix
 end
